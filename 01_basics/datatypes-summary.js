@@ -30,3 +30,25 @@ const myfunction=function(){
 }
 
 console.log(typeof (myfunction))
+
+// *************************************************8
+
+//stack(primitive)=gives copy ,heap(non primitive)=gives reference
+
+let myYoutubename="Aakash"
+
+let anothername=myYoutubename
+
+anothername="HARSH"
+
+console.log(anothername)
+console.log(myYoutubename)
+
+let userOne={
+    email:"harshsingh0063@gmail.com",
+    upi:"harshsingh0063@oksbi",
+}
+let userTwo=userOne;
+userTwo.email="ea0062@gmail.com"
+console.log(userOne.email)
+console.log(userTwo.email)
