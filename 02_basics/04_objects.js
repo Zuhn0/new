@@ -1,8 +1,8 @@
 // const tinderUser = new Object(); //singleton object
 
-// const tinderUser ={}; // non singelton object
-// tinderUser.id="123abc"
-// tinderUser.name="Aakash"
+const tinderUser ={}; // non singelton object
+tinderUser.id="123abc"
+tinderUser.name="Aakash"
 
 // // console.log(tinderUser); //{ id: '123abc', name: 'Aakash' }
 
@@ -42,3 +42,21 @@ const obj3={
 const obj4={...obj1,...obj2,...obj3}
 
 console.log(obj4) //{ '1': 'a', '2': 'b', '3': 'a', '4': 'b', '5': 'a', '6': 'b' }
+
+ const users = [   
+    {
+        id: 1,
+        email: "harshsingh0063@gmail.com"
+    },
+    {
+        id: 1,
+        email: "ea0062@gmail.com"
+    }
+]    //array of objects
+
+users[1].email
+console.log(tinderUser);
+
+console.log(Object.keys(tinderUser));
+console.log(Object.values(tinderUser));
+
