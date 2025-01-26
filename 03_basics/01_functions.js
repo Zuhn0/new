@@ -54,12 +54,17 @@ function sayMyName()
 // }
 // console.log(loginUserMessaege()); //Please enter a Username
 
-function loginUserMessaege(username="harsh") //now even if we dont pass any value then also "harsh"= default will be there
-{
+// function loginUserMessaege(username="harsh") //now even if we dont pass any value then also "harsh"= default will be there
+// {
     
-    return `${username} just logged in` 
+//     return `${username} just logged in` 
+// }
+// console.log(loginUserMessaege()); //harsh just logged in
+// console.log(loginUserMessaege("Aakash")); //Aakash just logged in
+
+function calculateCartPrice(...num)
+{ 
+    return num;
 }
-console.log(loginUserMessaege()); //harsh just logged in
-console.log(loginUserMessaege("Aakash")); //Aakash just logged in
 
-
+console.log(calculateCartPrice(200,300,400,2000)); //[ 200, 300, 400 ]
