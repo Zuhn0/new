@@ -87,3 +87,15 @@ console.log(amount); //999
 
 //API 
 
+
+// {
+//     "name":"Aakash",
+//     "coursename":"Js in hindi",
+//     "price":"free"
+// }
+
+[
+    {},
+    {},
+    {}
+]
