@@ -68,3 +68,12 @@ function calculateCartPrice(...num)
 }
 
 console.log(calculateCartPrice(200,300,400,2000)); //[ 200, 300, 400 ]
+
+function calculateCartPrice(val1,val2,...num)
+{ 
+    return num;
+}
+
+console.log(calculateCartPrice(200,300,400,2000)); //[ 400, 2000 ]
+
+v 
