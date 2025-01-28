@@ -62,18 +62,31 @@ function sayMyName()
 // console.log(loginUserMessaege()); //harsh just logged in
 // console.log(loginUserMessaege("Aakash")); //Aakash just logged in
 
-function calculateCartPrice(...num)
-{ 
-    return num;
-}
+// function calculateCartPrice(...num)
+// { 
+//     return num;
+// }
 
-console.log(calculateCartPrice(200,300,400,2000)); //[ 200, 300, 400 ]
+// console.log(calculateCartPrice(200,300,400,2000)); //[ 200, 300, 400 ]
 
-function calculateCartPrice(val1,val2,...num)
-{ 
-    return num;
-}
+// function calculateCartPrice(val1,val2,...num)
+// { 
+//     return num;
+// }
 
-console.log(calculateCartPrice(200,300,400,2000)); //[ 400, 2000 ]
+// console.log(calculateCartPrice(200,300,400,2000)); //[ 400, 2000 ]
 
-v 
+// const user={
+//     username:"Aakash",
+//     price:999
+// }
+// function handleObject(anyobject)
+// {
+//     console.log(`Username is ${anyobject.username} and price is ${anyobject.price}`); 
+// }
+// handleObject(user) //Username is Aakash and price is 999
+// //  OR  ,DIRECT OBJECT PASSING
+// handleObject({
+//     username:"Sam",
+//     price:399
+// })   //Username is Sam and price is 399
