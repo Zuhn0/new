@@ -24,5 +24,20 @@ for (const key in myobject) {
 // rb shortcut is for ruby
 // swift shortcut is for swift by apple
 
+const programming=["js", "rb", "py", "java"]
+for (const key in programming) {
+       console.log(key);
+}
+// 0
+// 1
+// 2
+// 3
 
- 
+for (const key in programming) {
+       console.log(programming[key]);
+}
+// js
+// rb
+// py
+// java
+
